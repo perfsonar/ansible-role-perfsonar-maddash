@@ -1,2 +1,2 @@
-# ansible-role-perfsonar-psconfig-publisher
-Install and configure perfSONAR's psconfig-publisher package
+# ansible-role-perfsonar-maddash
+Install and configure perfSONAR's MadDash package
