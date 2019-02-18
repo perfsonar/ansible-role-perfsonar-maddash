@@ -1,2 +1,9 @@
 ---
 # tasks file for perfsonar-maddash
+
+- name: enable and start psconfig-maddash-agent
+  tags: [ 'ps::running' ]
+  systemd:
+    name: psconfig-maddash-agent
+    enabled: yes
+    state: started
