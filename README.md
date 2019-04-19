@@ -1,4 +1,4 @@
-perfSONAR-archive Ansible role
+perfSONAR-maddash Ansible role
 ================================
 
 Install and manage a perfSONAR MadDash dashboard.
@@ -20,8 +20,7 @@ Role Variables
 
 The following variables can/should be defined for your host setup:
 
-  - `perfsonar_os_update` defaults to True.  This causes the base OS to be updated.
-  - `perfsonar_release` defaults to release.  "staging" and "nightly" are optional.
+  - `perfsonar_maddash_remotes` is a list whose entries have `state` and `url` subelements.
 
 - Some other variables are defined at the end of `default/main.yml` and in `vars/main.yml`, but shouldn't need to be altered for a regular install.
 
