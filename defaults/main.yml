@@ -2,5 +2,5 @@
 # defaults file for perfsonar-maddash
 # perfsonar_maddash_remotes:
 #   - state: [ present | absent ]
-#   - url: url
+#     url: url
 perfsonar_maddash_remotes: []
