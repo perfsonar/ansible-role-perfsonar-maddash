@@ -1,7 +1,9 @@
+**Archived, MaDDash is not supported anymore by the perfSONAR project.**
+
 perfSONAR-maddash Ansible role
 ================================
 
-Install and manage a perfSONAR MadDash dashboard.
+Install and manage a perfSONAR MaDDash dashboard.
 
 Requirements
 ------------
